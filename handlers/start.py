@@ -9,7 +9,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
     & ~ filters.edited
 )
 async def start_(client: Client, message: Message):
-    await message.reply_sticker("CAACAgEAAxkBAAEJhqRghWPsjqUKSS8_6VmdS7qpU3_lTQAC1wEAAhj9KUQdpq7AObW5uh8E")
+    await message.reply_sticker("CAACAgEAAxkBAAEJbcdgfc0EbBXPwD9Xy4Rl7UDsqcruzQACeQIAAqcI6Uf9k-kK7H0fxR8E")
     await message.reply_text(
         f"""<b>Hey {format(
         message.from_user.mention)}! Hii
@@ -26,18 +26,18 @@ Use the buttons below to know more about me..🔥
             [
                 [
                     InlineKeyboardButton(
-                        "⚪ Support Group ⚪", url="https://t.me/CoffinXsupport",
+                        "Music World 🌍", url="https://t.me/wearefriendscircle",
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "⚪ Channel ⚪", url="https://t.me/CoffinX_updates"
+                        "Clan..🔥", url="https://t.me/weopsecretfighters"
                     ),
                     InlineKeyboardButton(
-                        "⚪ Help ⚪", callback_data="help_back"
+                        "My creator..😎", url="https://t.me/idanishbaba"
                     ),
                     InlineKeyboardButton(
-                        "⚪ Assistant ⚪", url="https://t.me/CoffinXAssistant?startgroup=true"
+                        "Commamds", url="https://telegra.ph/MusicBot-Robot-MusicBot-Robo-03-14"
                     )
                 ],
                 [
@@ -78,7 +78,7 @@ async def gstart(_, message: Message):
 )
 async def help(client: Client, message: Message):
     await message.reply_text(
-        f"""<b>Here Is Cmd Of CoffinXmusic !
+        f"""<b>Here Is Cmd Of DANISH BABA MUSIC !
 ╔━━━━━━━━⊰✦⊱━━━━━━━━╗
 \n/play <song name> - play song you requested
 /dplay <song name> - play song you requested via deezer
