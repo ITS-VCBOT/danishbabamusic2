@@ -11,7 +11,7 @@ async def gstart(_, message: Message):
                         [
                             InlineKeyboardButton(
                                 text="Help",
-                                url="t.me/CoffinXmusic_BoT?start=ghelp_{}".format(
+                                url="t.me/danishbabamusic2_bot?start=ghelp_{}".format(
                                     context.bot.username, module,
                                 ),
                             ),
