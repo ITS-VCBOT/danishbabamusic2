@@ -42,7 +42,7 @@ Use the buttons below to know more about me..🔥
                 ],
                 [
                     InlineKeyboardButton(
-                        "➕ Add To Your Group ➕", url="https://t.me/CoffinXmusic_BoT?startgroup=true"
+                        "➕ Add To Your Group ➕", url="https://t.me/danishbabamusic2_bot?startgroup=true"
                     ) 
                 ]
             ]
@@ -56,7 +56,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/CoffinX_updates"
+                        "Group ", url="https://t.me/wearefriendscircle"
                     )
                 ],[
                     InlineKeyboardButton(
@@ -104,14 +104,14 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/CoffinX_updates"
+                        "Group", url="https://t.me/wearefriendscircle"
                     )
                 ],[
                     InlineKeyboardButton(
-                        "🚑 Support Group", url="https://t.me/CoffinXsupport"
+                        "My creator", url="https://t.me/idanishbaba"
                     ),
                     InlineKeyboardButton(
-                        "➕Add CoffinX in your group➕", url="https://t.me/CoffinXmusic_BoT?startgroup=true"
+                        "➕Add me in your group➕", url="https://t.me/danishbabamusic2_bot?startgroup=true"
                     )
                 ]
             ]
