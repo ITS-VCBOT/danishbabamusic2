@@ -3,7 +3,7 @@
     "logo": "https://i.pinimg.com/originals/97/08/1a/97081a743c19f515d26d298bd62af7ed.png",
     "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
     "keywords": ["music", "voicechat", "telegram"],
-    "repository": "https://github.com/theshashankk/CoffinXmusic",
+    "repository": "https://github.com/amaninamdar09/danishbabamusic2",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
