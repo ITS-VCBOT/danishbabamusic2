@@ -11,11 +11,14 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 async def start_(client: Client, message: Message):
     await message.reply_sticker("CAACAgEAAxkBAAEJhqRghWPsjqUKSS8_6VmdS7qpU3_lTQAC1wEAAhj9KUQdpq7AObW5uh8E")
     await message.reply_text(
-        f"""<b>Hey {message.from_user.first_name}!
-\nI can play music in your group's voice chat
-And Also I Can Manage Ur Group.. ❤️
-\nTo add in your group contact us at @CoffinXsupport.
-\nUse the buttons below to know more about me.
+        f"""<b>Hey {format(
+        message.from_user.mention)}! Hii
+I am powerful VC music Bot..🔥
+I can play songs in your group's VC 
+To listen songs also add @danishbabamusic to your group..
+And don't forgot to promote me with all rights..😉
+Otherwise I can't play songs..🙄
+Use the buttons below to know more about me..🔥
  </b>""",
       
        
